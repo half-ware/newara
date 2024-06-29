@@ -1,0 +1,290 @@
+:root {
+	--bg-color:  #e5e8eb;
+	--btn-primary: #714B67;
+	--btn-secondary: #017E8480;
+	--secondary: #017E84;
+	--navbar-bg: #714B67;
+	--text-btn-color: white;
+	--table-border-color: #714b6740;
+	--btn-default-hover-bg: white;
+	--sidebar-select-color: #017E8420;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--text-base: 14px;
+}
+
+.navbar .navbar-expand span, 
+.navbar .navbar-expand li a,
+#navbar-breadcrumbs a,
+.navbar .nav-item button.nav-link{ 
+	color: var(--btn-default-hover-bg) !important;
+
+}
+
+/* NAVBAR DESIGNE */
+#navbar-breadcrumbs li.disabled a {
+  color: var(--white-overlay-400) !important;
+}
+
+.nav-tabs{ border:none;
+}
+
+.search-bar span {
+	color: var(--neutral-black) !important;
+}
+
+/* PAGE DESIGN */
+
+body, .page-container { 
+	background-color: var(--bg-color) !important;
+}
+
+.page-head { 
+	background-color: white !important;
+}
+
+.es-icon {
+	@extend .icon;
+	fill :  #017E8480 !important; 
+	stroke:  #017E8480 !important;
+}
+
+/* DASHBOARD DESIGN */
+.desk-sidebar-item{
+	line-height: 2.2;
+}
+
+.widget.links-widget-box, .widget.dashboard-widget-box {
+	border: 1px solid #714B6780;
+}
+
+.widget.links-widget-box .widget-head .widget-label .widget-title{
+	background-color: white;
+	color: #714B67 !important;
+}
+
+.widget-body .link-item{
+	margin-bottom: 5px !important;
+}
+
+.icon-md {
+	width: 30px;
+	height: 30px;
+}
+
+.onboard-spotlight {
+	color: var(--secondary) !important;
+}
+
+a.onboard-spotlight .link-content:hover {
+	color: var(--btn-secondary) !important;
+}
+
+.dropdown-notifications .es-icon{
+	@extend .icon;
+	fill :  white !important; 
+	stroke:  white !important;
+}
+
+/* LIST GRID DESIGN */
+
+.list-filters .form-control, .standard-filter-section .form-control, .standard-filter-section .form-control {
+	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+
+.level.list-row-head, .level.list-row-head .level-item {
+	font-weight:bold;
+	background-color: var(--gray-300);
+}
+.list-row-container .list-row:hover{
+	background-color: var(--sidebar-select-color);
+}
+
+.list-filters .form-control:focus, .list-filters .form-control:hover,
+.standard-filter-section .form-control:focus, .standard-filter-section .form-control:hover {
+	box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
+}
+
+/*  FORM DESIGN  */
+.form-control, .frappe-control .ql-editor:not(.read-mode){
+	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+
+.ace_editor {
+	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+}
+
+.ql-editor:focus{
+	box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
+}
+
+.form-control:focus, .form-control:hover{
+	box-shadow: 0 0 0 2px #714b6780 !important;
+}
+
+.form-control:focus {
+	background-color: #714b6725;
+}
+
+.frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:hover,
+.frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:focus
+{
+	box-shadow: 0 0 0 2px #eb909180 !important;
+}
+
+.frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input{
+	box-shadow: none !important;
+}
+
+option {
+	 background-color: white !important;
+}
+
+.grid-heading-row .filter-row, .awesomplete [role="listbox"] {
+	background-color: white !important;
+}
+
+.grid-row-open{
+	box-shadow: 0 0 0 3px #714b67 !important;
+}
+
+.awesomplete [role="option"]:hover,  .awesomplete li:hover{
+	background-color: var(--gray-300) !important;
+}
+
+input[type="checkbox"]:checked {
+	background-color: var(--btn-secondary) !important;
+	background-image: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 4.00001L2.66667 5.80001L7 1.20001' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"),var(--checkbox-gradient) !important;
+}
+
+.datepicker {
+	 background-color: var(--bg-color) !important;
+}
+
+/* BUTTONS DESIGN */ 
+.btn{
+	border-radius: 0.25rem !important;
+}
+
+.btn.btn-primary{
+	color: var(--text-btn-color);
+	border: solid 2px #714b67 !important;
+}
+
+.btn.btn-primary:hover {
+	background: var(--btn-default-hover-bg) !important;
+	border: solid 2px #714b67 !important;
+	color: var(--text-color);
+  }
+
+.standard-actions .btn.btn-secondary{
+	background: var(--secondary) !important;
+        border: solid 2px var(--secondary) !important;
+	color: var(--text-btn-color);
+}
+
+.standard-actions .btn.btn-secondary:hover{
+	background: var(--btn-default-hover-bg) !important;
+    	border: solid 2px var(--secondary) !important;
+	color: var(--text-color);
+}
+
+.custom-actions .btn.btn-default{
+	background: var(--secondary) !important;
+        border: solid 2px var(--secondary) !important;
+	color: var(--text-btn-color);
+}
+
+.custom-actions .btn.btn-default:hover{
+	background: var(--btn-default-hover-bg) !important;
+    	border: solid 2px var(--secondary) !important;
+	color: var(--text-color);
+}
+
+.btn.btn-secondary .es-icon{
+	@extend .icon;
+	fill :  white !important; 
+	stroke:  white !important;
+}
+
+.btn.btn-default {
+	background: var(--btn-default-hover-bg) !important;
+    border: solid 1px var(--btn-secondary) !important;
+    color: var(--text-color);
+}
+
+.btn.grid-add-row{
+	background: var(--btn-default-hover-bg) !important;
+    border: solid 1px var(--btn-secondary) !important;
+    color: var(--text-color);
+}
+
+.btn.btn-new-doc{
+	background-color: #714b67 !important;
+	color: var(--text-btn-color);
+	border: solid 2px #714b67 !important;
+}
+
+.btn.btn-new-doc:hover{
+	background: var(--btn-default-hover-bg) !important;
+	border: solid 2px #714b67 !important;
+	color: var(--text-color);
+}
+
+.custom-actions .btn{
+	font-size: 12px !important;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), div#driver-popover-item .driver-popover-footer .btn-group > button:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:last-child) > .btn, div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:last-child) > button {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;  
+}
+
+.btn-group > .btn:not(:first-child), div#driver-popover-item .driver-popover-footer .btn-group > button:not(:first-child), .btn-group > .btn-group:not(:first-child) > .btn, div#driver-popover-item .driver-popover-footer .btn-group > .btn-group:not(:first-child) > button {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+/* POS DESIGN */
+
+.point-of-sale-app section { 
+	min-height: 40rem !important;
+}
+
+.client-wrapper ul {
+	padding-left: 22px;
+	margin-top: 0; 
+	margin-bottom:0;
+}
+
+.client-wrapper li {
+  float: left;
+  list-style-type: none;
+}
+
+.client-wrapper li a { 
+	display: inline-block;
+	text-decoration: none;
+	width: 100%; 
+	background-color: var(--gray-300) !important; 
+	color: black; 
+	text-align: center;
+}
+
+.client-wrapper li a.plus-pos, .client-wrapper li a.plus-pos:focus, .client-wrapper li a.plus-pos:hover{
+        background-color: var(--gray-400) !important;
+}
+
+.client-wrapper li a.minus-pos, .client-wrapper li a.minus-pos:focus, .client-wrapper li a.minus-pos:hover{
+	background-color: var(--red-400) !important;
+}
+
+.client-wrapper li a:focus,
+.client-wrapper li a:hover {
+  background-color: var(--gray-400) !important;
+  color: black;
+}
+
+.client-wrapper li a.active {
+  background-color:  white !important;
+  color: black;
+}

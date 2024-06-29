@@ -1,0 +1,9 @@
+## NEWARA
+
+TEMPLATE FRAPPE NEWARA
+
+CSS DESIGN LIKE ODOO
+
+#### License
+
+mit
