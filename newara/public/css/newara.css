@@ -48,6 +48,15 @@ body, .page-container {
 	stroke:  #017E8480 !important;
 }
 
+.page-content .layout-main-section{
+        background-color: white;
+}
+
+.datatable .dt-cell {
+  background-color: #fff !important;
+}
+
+
 /* DASHBOARD DESIGN */
 .desk-sidebar-item{
 	line-height: 2.2;
