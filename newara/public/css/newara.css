@@ -12,6 +12,42 @@
 	--text-base: 14px;
 }
 
+/* login page */
+.for-login .page-card {
+	border: 1px solid var(--blue-400) !important;
+}
+
+.for-login .btn-login{
+	background-color: var(--blue-800) !important;
+	border: none !important;
+	color: white;
+}
+
+.for-login .btn-login:hover{
+	background-color: var(--blue-600) !important;
+	border: none !important;
+	color: white;
+}
+
+.for-login .page-card-head h4 {
+	color: black !important;
+}
+
+.for-login .form-control, .for-login .form-control{
+	background-color: white !important;
+	border: solid 1px var(--blue-400) !important;
+}
+
+.for-login .form-control:focus, .for-login .form-control:hover{
+	box-shadow: 0 0 0 1px var(--blue-300) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message>* {
+	color: var(--blue-600) !important;
+}
+
+/* NAVBAR DESIGNE */
+
 .navbar .navbar-expand span, 
 .navbar .navbar-expand li a,
 #navbar-breadcrumbs a,
@@ -20,12 +56,12 @@
 
 }
 
-/* NAVBAR DESIGNE */
 #navbar-breadcrumbs li.disabled a {
   color: var(--white-overlay-400) !important;
 }
 
-.nav-tabs{ border:none;
+.nav-tabs{ 
+	border:none;
 }
 
 .search-bar span {
@@ -251,41 +287,6 @@ input[type="checkbox"]:checked {
 	border-top-left-radius: 0 !important;
 	border-bottom-left-radius: 0 !important;
 }
-
-/* login page */
-.for-login .page-card {
-border: 1px solid var(–blue-400) !important;
-}
-
-.for-login .btn-login{
-background-color: var(–blue-800) !important;
-border: none !important;
-color: white;
-}
-
-.for-login .btn-login:hover{
-background-color: var(–blue-600) !important;
-border: none !important;
-color: white;
-}
-
-.for-login .page-card-head h4 {
-color: black !important;
-}
-
-.for-login .form-control, .for-login .form-control{
-background-color: white !important;
-border: solid 1px var(–blue-400) !important;
-}
-
-.for-login .form-control:focus, .for-login .form-control:hover{
-box-shadow: 0 0 0 1px var(–blue-300) !important;
-}
-
-.for-login .page-card .page-card-body .forgot-password-message>* {
-color: var(–blue-600) !important;
-}
-
 
 /* POS DESIGN */
 
