@@ -5,8 +5,10 @@ CSS DESIGN LIKE ODOO
 <img src="newara.PNG">
 
 For login page:
-Add the css file in Website Settings, Header TAB:
-<link rel="stylesheet" href="/assets/newara/css/newara.css">
+<p>
+Add the css file in Website Settings, Header TAB:<br>
+&lt;link rel="stylesheet" href="/assets/newara/css/newara.css"&gt;
+</p>
 <img src="login.PNG">
 
 #### License
