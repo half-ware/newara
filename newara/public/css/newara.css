@@ -121,7 +121,7 @@ a.onboard-spotlight .link-content:hover {
 	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
 }
 
-.ql-editor:focus{
+.ql-editor:focus, .ace_editor:focus{
 	box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
 }
 
@@ -251,6 +251,41 @@ input[type="checkbox"]:checked {
 	border-top-left-radius: 0 !important;
 	border-bottom-left-radius: 0 !important;
 }
+
+/* login page */
+.for-login .page-card {
+border: 1px solid var(–blue-400) !important;
+}
+
+.for-login .btn-login{
+background-color: var(–blue-800) !important;
+border: none !important;
+color: white;
+}
+
+.for-login .btn-login:hover{
+background-color: var(–blue-600) !important;
+border: none !important;
+color: white;
+}
+
+.for-login .page-card-head h4 {
+color: black !important;
+}
+
+.for-login .form-control, .for-login .form-control{
+background-color: white !important;
+border: solid 1px var(–blue-400) !important;
+}
+
+.for-login .form-control:focus, .for-login .form-control:hover{
+box-shadow: 0 0 0 1px var(–blue-300) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message>* {
+color: var(–blue-600) !important;
+}
+
 
 /* POS DESIGN */
 
