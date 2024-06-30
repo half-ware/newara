@@ -13,6 +13,16 @@
 }
 
 /* login page */
+
+[data-path="login"] .navbar-light {
+	border-bottom: 1px solid var(--blue-400) !important;
+	background: white;
+}
+
+[data-path="login"] .web-footer {
+	border-top: 1px solid var(--blue-400) !important;
+}
+
 .for-login .page-card {
 	border: 1px solid var(--blue-400) !important;
 }
