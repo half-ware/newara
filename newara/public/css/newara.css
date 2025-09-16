@@ -1,13 +1,13 @@
 :root {
-	--bg-color:  #e5e8eb;
-	--btn-primary: #714B67;
-	--btn-secondary: #017E8480;
-	--secondary: #017E84;
-	--navbar-bg: #714B67;
+	--bg-color:  #e7fcf2;
+	--btn-primary: #0049af;
+	--btn-secondary: #0049af80;
+	--secondary: #c9e36a;
+	--navbar-bg: #0049af;
 	--text-btn-color: white;
-	--table-border-color: #714b6740;
+	--table-border-color: #0049af40;
 	--btn-default-hover-bg: white;
-	--sidebar-select-color: #017E8420;
+	--sidebar-select-color: #c9e36a20;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--text-base: 14px;
 }
@@ -108,12 +108,12 @@ body, .page-container {
 }
 
 .widget.links-widget-box, .widget.dashboard-widget-box {
-	border: 1px solid #714B6780;
+	border: 1px solid #0049af80;
 }
 
 .widget.links-widget-box .widget-head .widget-label .widget-title{
 	background-color: white;
-	color: #714B67 !important;
+	color: #0049af !important;
 }
 
 .widget-body .link-item{
@@ -172,11 +172,11 @@ a.onboard-spotlight .link-content:hover {
 }
 
 .form-control:focus, .form-control:hover{
-	box-shadow: 0 0 0 2px #714b6780 !important;
+	box-shadow: 0 0 0 2px #0049af80 !important;
 }
 
 .form-control:focus {
-	background-color: #714b6725;
+	background-color: #0049af25;
 }
 
 .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:hover,
@@ -198,7 +198,7 @@ option {
 }
 
 .grid-row-open{
-	box-shadow: 0 0 0 3px #714b67 !important;
+	box-shadow: 0 0 0 3px #0049af !important;
 }
 
 .awesomplete [role="option"]:hover,  .awesomplete li:hover{
@@ -221,12 +221,12 @@ input[type="checkbox"]:checked {
 
 .btn.btn-primary{
 	color: var(--text-btn-color);
-	border: solid 2px #714b67 !important;
+	border: solid 2px #0049af !important;
 }
 
 .btn.btn-primary:hover {
 	background: var(--btn-default-hover-bg) !important;
-	border: solid 2px #714b67 !important;
+	border: solid 2px #0049af !important;
 	color: var(--text-color);
   }
 
@@ -273,14 +273,14 @@ input[type="checkbox"]:checked {
 }
 
 .btn.btn-new-doc{
-	background-color: #714b67 !important;
+	background-color: #0049af !important;
 	color: var(--text-btn-color);
-	border: solid 2px #714b67 !important;
+	border: solid 2px #0049af !important;
 }
 
 .btn.btn-new-doc:hover{
 	background: var(--btn-default-hover-bg) !important;
-	border: solid 2px #714b67 !important;
+	border: solid 2px #0049af !important;
 	color: var(--text-color);
 }
 
