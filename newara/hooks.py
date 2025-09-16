@@ -11,9 +11,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/newara/css/newara.css"
-app_include_js = [
-    "/assets/newara/js/theme_loader.js",
-]
+# app_include_js = "/assets/newara/js/newara.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/newara/css/newara.css"
@@ -190,11 +188,6 @@ app_include_js = [
 # ----------
 # before_job = ["newara.utils.before_job"]
 # after_job = ["newara.utils.after_job"]
-
-# Boot
-# ----
-# Inject per-site theme identifier into frappe.boot
-boot_session = "newara.boot.boot_session"
 
 # User Data Protection
 # --------------------
