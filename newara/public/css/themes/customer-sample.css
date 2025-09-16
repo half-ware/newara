@@ -1,0 +1,23 @@
+:root {
+	--bg-color:  #f5f7fa;
+	--btn-primary: #004aad;
+	--btn-secondary: #00968880;
+	--secondary: #009688;
+	--navbar-bg: #004aad;
+	--text-btn-color: white;
+	--table-border-color: #004aad40;
+	--btn-default-hover-bg: white;
+	--sidebar-select-color: #00968820;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--text-base: 14px;
+}
+
+/* Optional: tweak a couple of specific accents from base theme */
+.btn.btn-new-doc{
+	background-color: var(--btn-primary) !important;
+	border: solid 2px var(--btn-primary) !important;
+}
+
+.widget.links-widget-box .widget-head .widget-label .widget-title{
+	color: var(--btn-primary) !important;
+}
