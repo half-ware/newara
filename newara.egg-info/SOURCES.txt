@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+newara/__init__.py
+newara/hooks.py
+newara.egg-info/PKG-INFO
+newara.egg-info/SOURCES.txt
+newara.egg-info/dependency_links.txt
+newara.egg-info/not-zip-safe
+newara.egg-info/requires.txt
+newara.egg-info/top_level.txt
+newara/config/__init__.py
+newara/newara/__init__.py
+newara/templates/__init__.py
+newara/templates/pages/__init__.py

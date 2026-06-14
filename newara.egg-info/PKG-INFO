@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: newara
+Version: 1.1.3
+Summary: Custom Frappe Theme
+Author: H@LFWARE
+Author-email: contact@half-ware.com
+License-File: LICENSE
+Requires-Dist: frappe
+Requires-Dist: pypika @ git+https://github.com/frappe/pypika@2c50e6142b2d61d2d243e466fdd5dc03b3d918f2
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

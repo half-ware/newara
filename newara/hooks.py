@@ -14,8 +14,13 @@ app_include_css = "/assets/newara/css/newara.css"
 # app_include_js = "/assets/newara/js/newara.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/newara/css/newara.css"
+web_include_css = "/assets/newara/css/newara.css"
 # web_include_js = "/assets/newara/js/newara.js"
+website_context = {
+    "styles": [
+        "/assets/newara/css/newara.css"
+    ]
+}
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "newara/public/scss/website"

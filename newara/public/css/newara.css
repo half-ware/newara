@@ -24,7 +24,7 @@
 }
 
 .for-login .page-card {
-	border: 1px solid var(--blue-400) !important;
+	border: unset !important;
 }
 
 .for-login .btn-login{
@@ -56,6 +56,48 @@
 	color: var(--blue-600) !important;
 }
 
+/* Container adjustment to push content to the right */
+[data-path="login"] .page-container {
+    display: flex;
+    justify-content: flex-end; /* Pushes the card to the right */
+    padding-right: 10%; /* Adjust this to control how far from the right edge it sits */
+}
+
+/* Updated .for-login styles */
+.for-login {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    border: 1px solid var(--blue-400) !important;
+    border-radius: 12px;
+    background-color: white !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    float: right;
+}
+
+/* Responsive fix: Center the login card on mobile devices */
+@media (max-width: 768px) {
+    [data-path="login"] .page-container {
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .for-login {
+        margin-top: 50px;
+        max-width: 100%;
+        float: none;
+    }
+}
+
+
+[data-path="login"] {
+    background-image: url(/assets/css/bgdemo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+=
 /* NAVBAR DESIGNE */
 
 .navbar .navbar-expand span, 
@@ -80,7 +122,7 @@
 
 /* PAGE DESIGN */
 
-body, .page-container { 
+body .page-container { 
 	background-color: var(--bg-color) !important;
 }
 
@@ -94,7 +136,7 @@ body, .page-container {
 	stroke:  #017E8480 !important;
 }
 
-.page-content .layout-main-section{
+.page-content .list-view .layout-main-section{
         background-color: white;
 }
 
@@ -341,4 +383,34 @@ input[type="checkbox"]:checked {
 .client-wrapper li a.active {
   background-color:  white !important;
   color: black;
+}
+
+/* Notification */
+.notifications-list {
+ background-color: var(--gray-300) !important;
+ box-shadow: rgba(0, 0, 0, 0.1) -8px 8px 8px !important;
+}
+
+/* Style des alertes de bureau (Toast notifications) */
+.alert-container {
+    right: 20px !important;
+    top: 60px !important;
+}
+
+.frappe-alert {
+    background-color: #2c3e50; /* Couleur sombre pro */
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    border: 1px solid #34495e;
+}
+
+/* Modifier la couleur selon le type de notification */
+.frappe-alert[data-alert-type="indicator-blue"] {
+    border-left: 5px solid #3498db;
+}
+
+.frappe-alert[data-alert-type="indicator-red"] {
+    border-left: 5px solid #e74c3c;
 }
