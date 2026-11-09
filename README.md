@@ -2,9 +2,9 @@
 
 TEMPLATE FRAPPE NEWARA
 CSS DESIGN LIKE ODOO
-<img src="newara_frappe_v16.png">
+<img src="newara_frappe_v16_1.png">
 <img src="newara_frappe_v16_2.png">
-<img src="newara-frappe-v16_3.png">
+<img src="newara_frappe-v16_3.png">
 #### For login page:
 <p>
 So amazing login;
