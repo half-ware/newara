@@ -406,7 +406,7 @@ input[type="checkbox"]:checked {
 }
 
 .btn.btn-default {
-	background: var(--btn-default-hover-bg) !important;
+    background: var(--btn-default-hover-bg) !important;
     border: solid 1px var(--btn-secondary) !important;
     color: var(--text-color);
 }
